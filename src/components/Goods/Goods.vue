@@ -26,7 +26,8 @@
                 <span>购买数量:</span>
                 <number 
                     :maxNum="goodInfo.stock_quantity"
-                    @getCount="getSelectedCountHandle"></number>
+                    @getCount="getSelectedCountHandle">
+                </number>
             </div>
             <div class="buy">
                 <mt-button type="primary" size="normal">立即购买</mt-button>
